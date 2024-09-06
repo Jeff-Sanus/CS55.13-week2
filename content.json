@@ -1,18 +1,18 @@
 [
     {
-        "firstname":"Pinterest",
+        "website":"Pinterest",
         "link":"https://www.pinterest.com/"
     },
     {
-        "firstname":"Instagram",
+        "website":"Instagram",
         "link":"https://www.instagram.com/"
     },
     {
-        "firstname":"Tik Tok",
+        "website":"Tik Tok",
         "link":"https://www.tiktok.com/"
     },
     {
-        "firstname":"Facebook",
+        "website":"Facebook",
         "link":"https://www.facebook.com/"
     }
 ]
