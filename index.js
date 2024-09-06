@@ -15,7 +15,7 @@ const requestListener = function(req, res) {
   if (req.url === "/") {
     // check request url, if root, return html file
     // special variable __dirname has absolute path of where node code is running
-    fs.readFile( __dirname + "/page.html" )
+    fs.readFile( __dirname + "/index.html" )
       .then(
         contents => {
           // set http response header entry
@@ -28,7 +28,7 @@ const requestListener = function(req, res) {
       );
   } else {
     // if request url not root, return json file
-    fs.readFile(__dirname + "/data.json")
+    fs.readFile(__dirname + "/content.json")
       .then(contents => {
         // set http response header entry
         res.setHeader("Content-Type", "application/json; charset=UTF-8");
