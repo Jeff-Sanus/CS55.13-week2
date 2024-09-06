@@ -1,0 +1,18 @@
+[
+    {
+        "firstname":"Pinterest",
+        "link":"https://www.pinterest.com/"
+    },
+    {
+        "firstname":"Instagram",
+        "link":"https://www.instagram.com/"
+    },
+    {
+        "firstname":"Tik Tok",
+        "link":"https://www.tiktok.com/"
+    },
+    {
+        "firstname":"Facebook",
+        "link":"https://www.facebook.com/"
+    }
+]
