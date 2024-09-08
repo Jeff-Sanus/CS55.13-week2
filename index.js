@@ -8,7 +8,7 @@ const http = require("http");
 const fs = require("fs").promises;
 
 // create a function to respond to http requests
-const requestListener = function(req, res) {
+const handleRequest = function(req, res) {
   // output request url
   console.log(req.url);
 
@@ -41,7 +41,7 @@ const requestListener = function(req, res) {
 };
 
 // create an http server instance
-const server = http.createServer(requestListener);
+const server = http.createServer(handleRequest);
 
 // define the TCP port and IP address to tell our http server to listen to
 const host = "127.0.0.1"; // repl.it is going to override this from localhost to your workspace
