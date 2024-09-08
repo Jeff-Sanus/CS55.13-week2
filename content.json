@@ -1,18 +1,22 @@
 [
     {
-        "website":"Pinterest",
-        "link":"https://www.pinterest.com/"
+        "website": "Pinterest",
+        "link": "https://www.pinterest.com/",
+        "description": "A visual discovery and bookmarking platform where users can find and share ideas through images, GIFs, and videos."
     },
     {
-        "website":"Instagram",
-        "link":"https://www.instagram.com/"
+        "website": "Instagram",
+        "link": "https://www.instagram.com/",
+        "description": "A social media platform centered around sharing photos and videos, with features like Stories, Reels, and IGTV for creative expression."
     },
     {
-        "website":"Tik Tok",
-        "link":"https://www.tiktok.com/"
+        "website": "Tik Tok",
+        "link": "https://www.tiktok.com/",
+        "description": "A short-form video sharing platform popular for its wide range of user-generated content, including dance, comedy, and educational clips."
     },
     {
-        "website":"Facebook",
-        "link":"https://www.facebook.com/"
+        "website": "Facebook",
+        "link": "https://www.facebook.com/",
+        "description": "A social networking site where users can connect with friends, share updates, photos, and join groups for common interests."
     }
 ]
